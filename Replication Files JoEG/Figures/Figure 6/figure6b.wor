@@ -1,0 +1,123 @@
+!Workspace
+!Version 780
+!Charset WindowsLatin1
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\europe_17_countries" As europe_17_countries Interactive
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\coord_for_map" As coord_for_map Interactive
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\coord_jewma_for_map" As coord_jewma_for_map Interactive
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\coord_messina_new2" As coord_messina_new2 Interactive
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\coord_jewma_for_map_new" As coord_jewma_for_map_new Interactive
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\new_data_for_messina_strategy2" As new_data_for_messina_strategy2 Interactive
+Open Table "C:\Users\Remi\Desktop\Black_Death_Persecutions 11012018 JOEG\data_analysis\Market Access Map\polbnda" As polbnda Interactive
+Map From new_data_for_messina_strategy2,polbnda,europe_17_countries 
+  Position (0.0520833,-0.0520833) Units "in"
+  Width 8.54167 Units "in" Height 7.54167 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 0
+  Center (4.545143043,44.85967266)
+  Zoom 1611.101224 Units "mi"
+  Preserve Zoom Display Zoom
+  Distance Units "mi" Area Units "sq mi" XY Units "degree"
+shade 1 with lmessinama_speed2_38 ranges apply all use size Symbol (183,0,50,"Symbol",256,0) 
+  -12.2: -11 Symbol (35,12632256,9) ,
+  -11: -10.2 Symbol (35,8421552,19) ,
+  -10.2: -9 Symbol (35,4210832,30) ,
+  -9: -2.8 Symbol (183,128,40,"Symbol",256,0) ,
+  -2.8: 1.3 Symbol (183,0,50,"Symbol",256,0) 
+  default Symbol (35,16777215,4) 
+  # use 3 round 0.1 inflect off Symbol (35,16777215,4) at 2 by 16 color 1 # 
+shade 2 with lma1300_speed2_38 ranges apply all use size Symbol (183,0,50,"Symbol",256,0) 
+  -3.21: -0.58 Symbol (35,12632256,9) ,
+  -0.58: 0.55 Symbol (35,8421552,19) ,
+  0.55: 1.72 Symbol (35,4210832,30) ,
+  1.72: 3.09 Symbol (183,128,40,"Symbol",256,0) ,
+  3.09: 4.82 Symbol (183,0,50,"Symbol",256,0) 
+  default Symbol (35,16777215,4) 
+  # use 3 round 0.01 inflect off Symbol (35,16777215,4) at 2 by 16 color 1 # 
+Set Map
+  Layer 1
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 2
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With longitude
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Global
+    Global Pen (2,2,8421504)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With F_code
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Global
+    Global Pen (2,2,8421504)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With F_code
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Map Layer 4 Editable
+set legend 
+  layer 1 
+    display on 
+    shades off 
+    symbols on 
+    lines off 
+    count off 
+    title auto Font ("Arial",1,15,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending off 
+    ranges Font ("Arial",1,20,0)
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+set legend 
+  layer 2 
+    display on 
+    shades off 
+    symbols on 
+    lines off 
+    count off 
+    title "Log Market Access to Messina" Font ("Arial",1,15,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending off 
+    ranges Font ("Arial",1,20,0)
+      auto display off ,
+      "1st" display on ,
+      "2nd" display on ,
+      "3rd" display on ,
+      "4th" display on ,
+      "Quintile: 5th" display on  
+Set Window FrontWindow() Printer
+ Name "Microsoft Print to PDF" Orientation Portrait Copies 1
+ Papersize 1
+Set Window FrontWindow() Export
+ TrueColor on Border off Dither halftone
+ Transparency Raster device Vector internal
+Create Cartographic Legend
+  Position (9.3125,0.239583) Units "in"
+  Width 3.96875 Units "in" Height 8.38542 Units "in" 
+  Window Title "Légende de coord_for_map,europe_17_countries Carte"
+  Portrait
+  Style Size Large
+  Frame From Layer 2
+    Border Pen (1,1,0) 
+  Frame From Layer 1
+    Border Pen (0,1,0) 
+Set Window FrontWindow() Printer
+ Name "Microsoft Print to PDF" Orientation Portrait Copies 1
+ Papersize 1
+Set Window FrontWindow() Export
+ TrueColor on Border off Dither halftone
+ Transparency Raster device Vector internal

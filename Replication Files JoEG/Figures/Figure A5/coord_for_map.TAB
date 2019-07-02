@@ -1,0 +1,10 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type XLS Titles Range "Sheet1!A2:C117"
+  Fields 3
+    longitude Float ;
+    latitude Float ;
+    lma1300_speed2_38 Float Index 1 ;

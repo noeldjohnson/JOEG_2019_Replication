@@ -1,0 +1,10 @@
+	(1)	(2)
+VARIABLES	mort16	mort16
+		
+moneylend_expansive	0.012	0.012
+	[0.056]	[0.056]
+Constant	0.890***	0.890***
+	[0.037]	[0.037]
+		
+Observations	124	124
+R-squared	0.000	0.000

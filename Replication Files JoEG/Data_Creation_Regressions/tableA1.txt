@@ -1,0 +1,17 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)
+VARIABLES	mortality	mortality	mortality	mortality	mortality	mortality	mortality	mortality	mortality	mortality	mortality	mortality
+												
+lma1300_speed2_38	0.85	0.51	-0.07									
+	[0.95]	[1.00]	[1.06]									
+lma1300_speed2_2				1.87	0.87	-0.56						
+				[2.43]	[2.58]	[2.82]						
+lma1300_speed2_1							0.86	-3.75	-5.41			
+							[6.72]	[7.06]	[7.91]			
+lma1300_euclid_38										0.48	0.64	0.43
+										[0.91]	[0.90]	[0.80]
+Constant	38.45***	36.11***	99.28*	33.08***	33.56***	100.41*	34.50	56.99	127.83*	44.54***	43.09***	102.63*
+	[1.85]	[3.78]	[55.35]	[8.08]	[8.33]	[55.90]	[37.65]	[38.51]	[72.43]	[10.20]	[10.57]	[54.64]
+												
+Observations	124	124	124	124	124	124	124	124	124	124	124	124
+R-squared	0.01	0.12	0.36	0.00	0.12	0.36	0.00	0.12	0.36	0.00	0.12	0.36
+control	no	econgeo	all	no	econgeo	all	no	econgeo	all	no	econgeo	all

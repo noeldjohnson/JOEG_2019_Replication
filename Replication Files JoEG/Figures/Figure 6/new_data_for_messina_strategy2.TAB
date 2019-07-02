@@ -1,0 +1,12 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type XLS Titles Range "Sheet1!A2:E125"
+  Fields 5
+    longitude Float ;
+    latitude Float ;
+    lmessina_speed2 Float ;
+    lma1300_speed2_38 Float Index 1 ;
+    lmessinama_speed2_38 Float Index 2 ;

@@ -1,0 +1,25 @@
+	(1)	(2)	(3)	(4)
+	lpop_05		lpop_05	
+VARIABLES	coef	se	coef	se
+				
+pogryear1600			-0.04	[0.08]
+pogryear1700			-0.16*	[0.10]
+pogryear1750			-0.22**	[0.11]
+pogryear1800			-0.62***	[0.12]
+pogryear1850			-0.56***	[0.13]
+expupost1500			0.33**	[0.14]
+expuyear1600			-0.05	[0.10]
+expuyear1700			-0.11	[0.15]
+expuyear1750			-0.07	[0.17]
+expuyear1800			-0.19	[0.18]
+expuyear1850			-0.12	[0.19]
+perspost1500	0.08	[0.10]		
+persyear1600	-0.05	[0.06]		
+persyear1700	-0.18**	[0.08]		
+persyear1750	-0.24**	[0.09]		
+persyear1800	-0.67***	[0.10]		
+persyear1850	-0.58***	[0.11]		
+Constant	2.11***	[0.03]	2.11***	[0.03]
+				
+Observations	16,821		16,821	
+R-squared	0.77		0.77	

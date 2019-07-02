@@ -1,0 +1,36 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+	mortality		mortality		mortality		mortality	
+VARIABLES	coef	se	coef	se	coef	se	coef	se
+								
+mortality	.	[.]	.	[.]	.	[.]	.	[.]
+lpop1300_05			-1.41	[1.23]			-1.56	[1.57]
+DMajorRomRoad10			0.49	[8.48]			-4.74	[6.30]
+DMajRomIntersection10			9.67*	[5.71]			8.62	[5.65]
+DAnyRomRoad10			6.78	[9.23]			10.39	[7.57]
+DAnyRmRdIntersect10			-5.54	[5.53]			-2.15	[5.49]
+dist2landroute10			1.07	[4.42]			-1.73	[4.06]
+dist2landrouteint10			-3.04	[5.14]			-3.94	[5.41]
+marketfair			-5.14	[4.38]			-0.97	[5.16]
+HansaFixed			-1.03	[6.30]			7.20	[6.88]
+DAqueduct10			3.19	[4.22]			-0.33	[4.66]
+university			3.88	[6.47]			4.43	[7.02]
+lma1300_speed2_38			0.51	[1.00]			-0.07	[1.06]
+avtemp15001600	-0.23	[0.68]					0.26	[0.83]
+elevation	-0.01	[0.01]					-0.00	[0.01]
+cerealclose	-2.28*	[1.28]					-2.52	[1.52]
+pastoral_weak_close	-4.58	[5.25]					0.87	[6.49]
+dist2AMNB_10	-6.67	[4.98]					-8.94	[5.82]
+drivers10	-3.15	[3.08]					-4.26	[3.85]
+longitude	0.62**	[0.30]					1.09**	[0.42]
+latitude	-2.39***	[0.58]					-1.90**	[0.79]
+monarchy1300					3.18	[5.44]	6.85	[5.51]
+Bcapital					7.06	[6.43]	2.01	[7.45]
+representative1300					-5.30	[4.04]	2.04	[4.38]
+parliament1300_yn					5.08	[4.66]	-0.32	[4.59]
+lDParliament					4.49**	[1.95]	0.59	[2.09]
+battle_yn					-3.59	[3.85]	-6.48	[4.31]
+Constant	137.89***	[40.64]	36.11***	[3.78]	15.68	[9.68]	99.28*	[55.35]
+								
+Observations	124		124		124		124	
+R-squared	0.27		0.12		0.15		0.36	
+control	geo		ecogeo		insts		all	

@@ -1,0 +1,8 @@
+	(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	mortality	jewpers13471352_x	lma1300_speed2_38	lall1kma1300_speed2_38	dist2ditowns	ldist2ditowns
+						
+imputed	-3.551	-0.115	-0.181	-0.520	23.603	0.012
+	[4.460]	[0.105]	[0.377]	[0.384]	[56.402]	[0.055]
+						
+Observations	124	124	124	124	124	124
+R-squared	0.007	0.010	0.002	0.012	0.002	0.000

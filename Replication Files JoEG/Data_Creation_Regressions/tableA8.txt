@@ -1,0 +1,13 @@
+	(1)	(2)	(3)	(4)
+	logpopgrowth12001300_05		logpopgrowth12001300_05	
+VARIABLES	coef	se	coef	se
+				
+logpopgrowth12001300_05	.	[.]	.	[.]
+lmessinama_speed2_38	-0.051	[0.049]		
+lma1300_speed2_38	0.130**	[0.059]	0.127**	[0.055]
+lpop1200_05	-0.329***	[0.053]	-0.323***	[0.053]
+months2_oct1347			0.014	[0.011]
+Constant	0.598	[0.484]	0.866***	[0.219]
+				
+Observations	123		124	
+R-squared	0.237		0.245	

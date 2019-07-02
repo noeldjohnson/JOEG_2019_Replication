@@ -1,0 +1,9 @@
+	(1)	(2)
+VARIABLES	jewpers	jewpers
+		
+	[0.002]	[0.002]
+		
+Observations	2,581	1,346
+R-squared	0.292	0.397
+mortality	)	-0.009***
+mortality	-0.009***	)
